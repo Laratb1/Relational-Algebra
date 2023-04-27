@@ -1,0 +1,6 @@
+-- Atividade 18
+
+t1 = loan ⨯ branch ⨯ account ⨯ borrower
+t2 = σ loan.branch_name = account.branch_name ∧ loan.branch_name = branch.branch_name ∧ loan.loan_number = borrower.loan_number (t1)
+t3 = σ borrower.customer_name = 'Hayes' (t2)
+π branch.branch_name, branch.branch_city (t3)

@@ -1,0 +1,5 @@
+-- Atividade 13
+
+t1 = customer ⨯ depositor ⨯ account 
+t2 = σ customer.customer_name = depositor.customer_name ∧ depositor.account_number = account.account_number ∧ branch_name = 'Perryridge'(t1) 
+π customer.customer_name, customer.customer_city (t2)

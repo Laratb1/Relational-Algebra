@@ -1,0 +1,4 @@
+-- Atividade 12
+
+t1 = σ branch_name ILIKE '%n' ∧ branch_city ILIKE '%i%' (branch)
+π branch_name(t1)

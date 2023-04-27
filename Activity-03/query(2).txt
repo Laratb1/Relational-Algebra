@@ -1,0 +1,6 @@
+-- Atividade 7
+-- %a qualquer coisa e termina com a 
+-- _a o primeiro caracter pode ser qualquer um e o segundo é o a
+
+t1 = σ customer_street ILIKE '%t' ∨ customer_city ILIKE 'S%' (customer)
+π customer_name (t1)
